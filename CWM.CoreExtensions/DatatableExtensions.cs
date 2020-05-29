@@ -9,7 +9,12 @@ namespace CWM.CoreExtensions
 {
     public static class DatatableExtensions
     {
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T">Object of Type T</typeparam>
+        /// <param name="dataTable">Datatable</param>
+        /// <returns></returns>
         public static List<T> ToList<T>(this DataTable dataTable)
         {
 
